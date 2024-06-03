@@ -1,0 +1,16 @@
+{
+  "Service": "com.deepin.daemon.EventLog",
+  "Objects": [
+    {
+      "Type": "EventLog",
+      "Path": "/com/deepin/daemon/EventLog",
+      "Interfaces": [
+        {
+          "Name": "com.deepin.daemon.EventLog",
+          "Type": "eventLog",
+          "Accessor": "EventLog"
+        }
+      ]
+    }
+  ]
+}
