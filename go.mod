@@ -1,4 +1,4 @@
-module github.com/linuxdeepin/go-dbus-factory
+module github.com/fly602/go-dbus-factory
 
 go 1.20
 
