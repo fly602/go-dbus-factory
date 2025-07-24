@@ -38,6 +38,9 @@
             <arg name="errReason" type="s" direction="out"></arg>
             <arg name="errCode" type="i" direction="out"></arg>
         </method>
+        <method name="SetTerminalLocked">
+            <arg name="locked" type="b" direction="in"></arg>
+        </method>
         <method name="RandUserIcon">
             <arg name="iconFile" type="s" direction="out"></arg>
         </method>
@@ -50,6 +53,7 @@
         <property name="UserList" type="as" access="read"></property>
         <property name="GuestIcon" type="s" access="read"></property>
         <property name="AllowGuest" type="b" access="read"></property>
+        <property name="IsTerminalLocked" type="b" access="read"></property>
     </interface>
     <interface name="org.freedesktop.DBus.Introspectable">
         <method name="Introspect">
